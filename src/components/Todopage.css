@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outerdiv{
+   width: 100vw;
+   height: 100vh;
+   background-color: #ecf0f1;
+}
+.innterdiv{
+    max-width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 50px;
+    padding: 60px 0;
+}
+
+.description_of_todo p {
+    padding-bottom: 10px;
+}
+
+.heading_of_todo h2{
+    padding-bottom: 20px;
+}
+.logo_of_todo img{
+    width: 50px;
+}
+
+.description_of_todo{
+    color: crimson;
+}
+.texthere{
+    position: relative;
+}
+.texthere input {
+    padding: 8px 0px 8px 5px;
+    max-width: 100%;
+    width: 400px;
+    border: 2px solid black;
+}
+.texthere input:focus{
+    outline: none;
+}
+.plus-icons {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.text-item {
+    max-width: 400px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #1e81b0;
+    color: #fff;
+   
+}
+.text-item h4{
+    border: 1px solid black;
+    text-align: start;
+    padding: 5px 0 5px 6px;
+}
+.delete-item-icon{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+}
+.removeall-btn{
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #ffa502;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
